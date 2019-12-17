@@ -18,7 +18,7 @@ from time import sleep
 
 import pigpio as io
 
-import DAC8552_default_config as DAC8552_default_config
+from dac8552 import DAC8552_default_config as DAC8552_default_config
 
 # --- Definition of control byte bits constants --- #
 # Control byte : logic OR together to form the control command value.
